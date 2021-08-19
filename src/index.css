@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: bordex-box;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #7159c1;
-    color: #fdfdfd;
+  font: 400 14px Roboto, sans-serif;
+  background: #ffffff;
+  -webkit-animation-smoothing: antialiased;
+}
+
+input,
+button,
+textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+#header {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
+  display: flex;
+
+  width: 100%;
+  position: fixed;
+  padding-bottom: 1rem;
 }
