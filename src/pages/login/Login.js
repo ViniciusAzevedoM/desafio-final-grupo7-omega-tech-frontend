@@ -29,7 +29,8 @@ const Login = () => {
       <header id="header">
         <img src={logo} alt="Logo do site" />
       </header>
-      <div className="Body">
+
+      <div className="body">
         <h1>Entrar</h1>
         <h2>Email</h2>
         <Formik
@@ -56,11 +57,11 @@ const Login = () => {
               />
             </div>
             <h3>Primeira vez! Faça o seu registro.</h3>
-            <button className="Login-Btn" type="submit">
-              Register
+            <button className="Register-Btn" type="submit">
+              Registrar
             </button>
             <button className="Login-Btn" type="submit">
-              Login
+              Entrar
             </button>
           </Form>
         </Formik>

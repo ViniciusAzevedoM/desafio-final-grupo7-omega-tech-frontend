@@ -15,7 +15,6 @@ body {
 }
 
 input,
-button,
 textarea {
   font: 400 18px Roboto, sans-serif;
 }
@@ -30,6 +29,6 @@ button {
   display: flex;
 
   width: 100%;
-  position: fixed;
-  padding-bottom: 1rem;
+  position: relative;
+  padding: 1rem 2rem;
 }
