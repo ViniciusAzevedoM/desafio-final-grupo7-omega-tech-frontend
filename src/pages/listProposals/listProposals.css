@@ -1,0 +1,43 @@
+.body {
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 190px;
+  }
+
+  .write-Field {
+    width: 400px;
+    height: 36px;
+  }
+  
+  .body h1 {
+    margin-bottom: 1rem;
+    font: 700 30px Roboto, sans-serif;
+    color: #26395f;
+  }
+  
+  .body h2 {
+    font: 700 14px Roboto, sans-serif;
+    margin-top: 1.5rem;
+    color: #464444;
+  }
+  
+  .chose-Btn,
+  .chose-Btn {
+    font: 500 16px Roboto, sans-serif;
+    width: 200px;
+    height: 40px;
+    margin-top: 0.5rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    border-radius: 3px;
+    margin-right: 13.5rem;
+    background: #3980fe;
+    color: #ffffff;
+    border: none;
+  }
+  
