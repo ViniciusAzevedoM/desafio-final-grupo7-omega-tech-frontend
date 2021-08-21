@@ -1,70 +1,77 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Desafio final - Programa Omega Tech
 
-## Available Scripts
+Projeto desenvolvido como desafio final do programa Omega Tech, programa com parceria entre a Omega Energia e a Gama Academy.
 
-In the project directory, you can run:
+Tabela de conteúdos
+=================
 
-### `npm start`
+   * [Sobre](#Sobre)
+   * [Como usar](#como-usar)
+      * [Pré-Requisitos](###pre-requisitos)
+      * [Rodando o Front End](###Back-End)
+   * [Features](#Features)
+   * [Tecnologias](#tecnologias)
+   * [Colaboradores](#colaboradores)
+   * [Documentação](#Documentation)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Sobre
+   Este projeto consiste na criação de um site que gera uma proposta de contrato de energia. Este repositório consiste no frontend da aplicação. Está sendo utilizado o CRA. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   O Design do projeto foi feito utilizando o Figma onde você pode encontrar aqui: https://www.figma.com/file/MHopIVXTBuiqgjthaRF6qQ/OmegaEnergia?node-id=0%3A1
 
-### `npm test`
+   O repositório com o Back End da aplicação você encontra aqui! https://github.com/diorodro/desafio-final-grupo7-omega-tech
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como usar
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [React.js](https://pt-br.reactjs.org/) 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎲 Rodando o Front End
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone este repositório
+$ git clone <https://github.com/ViniciusAzevedoM/desafio-final-grupo7-omega-tech-frontend.git>
 
-### `npm run eject`
+# Acesse a pasta do projeto no terminal/cmd
+$ cd pastaProjeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Instale as dependências
+$ npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Features
 
-## Learn More
+- [x] Tela de Login de usuário
+- [x] Tela de Cadastro de usuário
+- [x] Tela de criar propostas
+- [ ] Tela de contratar/listar propostas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚧  🚀 Em construção...  🚧
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠 Tecnologias
 
-### Code Splitting
+As seguintes ferramentas foram usadas na construção do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- ([React.js](https://pt-br.reactjs.org/) + [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)) 
+- [Axios](https://github.com/axios/axios)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Colaboradores
 
-### Making a Progressive Web App
+Vinícius Menezes: https://github.com/ViniciusAzevedoM
+Rodrigo Dionísio: https://github.com/diorodro
+Pedro Amorim: https://github.com/titular33
+Rutiely Miranda: https://github.com/RutielyMiranda
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
