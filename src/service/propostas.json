@@ -1,0 +1,86 @@
+[
+	{
+		"id_public": "cba21755-2886-e266-20e9-51ca34602186",
+		"createdAt": "2021-08-20T04:08:21.317Z",
+		"data_inicio": "2021-08-21",
+		"data_fim": "2030-08-21",
+		"fonte_energia": "RENOVAVEL",
+		"sub_mercado": "NORTE",
+		"valor_proposta": "10956666.67",
+		"cargas": [
+			{
+				"id_public": "17b2961d-1281-42a5-81f8-fc6fa7e17343",
+				"createdAt": "2021-08-20T03:34:23.941Z",
+				"nome_empresa": "Eikon Company",
+				"consumo_kwh": "250",
+				"id": 1
+			},
+			{
+				"id_public": "28f2b6f7-35ba-98d5-0c21-e9e492f8ac04",
+				"createdAt": "2021-08-20T03:34:29.861Z",
+				"nome_empresa": "Legaly",
+				"consumo_kwh": "250",
+				"id": 2
+			}
+		],
+		"desconto": true,
+		"id": 10,
+		"contratado": true
+	},
+	{
+		"id_public": "cba21755-2886-e266-20e9-51ca34602186",
+		"createdAt": "2021-08-20T04:08:21.317Z",
+		"data_inicio": "2021-08-21",
+		"data_fim": "2030-08-21",
+		"fonte_energia": "RENOVAVEL",
+		"sub_mercado": "NORTE",
+		"valor_proposta": "10956666.67",
+		"cargas": [
+			{
+				"id_public": "17b2961d-1281-42a5-81f8-fc6fa7e17343",
+				"createdAt": "2021-08-20T03:34:23.941Z",
+				"nome_empresa": "Eikon Company",
+				"consumo_kwh": "250",
+				"id": 1
+			},
+			{
+				"id_public": "28f2b6f7-35ba-98d5-0c21-e9e492f8ac04",
+				"createdAt": "2021-08-20T03:34:29.861Z",
+				"nome_empresa": "Legaly",
+				"consumo_kwh": "250",
+				"id": 2
+			}
+		],
+		"desconto": true,
+		"id": 10,
+		"contratado": false
+	},
+	{
+		"id_public": "cba21755-2886-e266-20e9-51ca34602186",
+		"createdAt": "2021-08-20T04:08:21.317Z",
+		"data_inicio": "2021-08-21",
+		"data_fim": "2030-08-21",
+		"fonte_energia": "RENOVAVEL",
+		"sub_mercado": "NORTE",
+		"valor_proposta": "10956666.67",
+		"cargas": [
+			{
+				"id_public": "17b2961d-1281-42a5-81f8-fc6fa7e17343",
+				"createdAt": "2021-08-20T03:34:23.941Z",
+				"nome_empresa": "Eikon Company",
+				"consumo_kwh": "250",
+				"id": 1
+			},
+			{
+				"id_public": "28f2b6f7-35ba-98d5-0c21-e9e492f8ac04",
+				"createdAt": "2021-08-20T03:34:29.861Z",
+				"nome_empresa": "Legaly",
+				"consumo_kwh": "500",
+				"id": 2
+			}
+		],
+		"desconto": true,
+		"id": 10,
+		"contratado": false
+	}
+]

@@ -1,0 +1,8 @@
+.propostas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5%;
+	flex-wrap: wrap;
+	gap: 20px;
+}
