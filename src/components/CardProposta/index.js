@@ -99,19 +99,19 @@ const CardProposta = ({ props }) => {
 						</div>
 					</label>
 					<label>
-						<div className="item">
+						<div className="item2">
 							<BsLightningFill />
 							<p>{props.fonte_energia}</p>
 						</div>
 					</label>
 					<label>
-						<div className="item">
+						<div className="item3">
 							<SiGooglemaps />
 							<p>{props.sub_mercado}</p>
 						</div>
 					</label>
 					<label>
-						<div className="item">
+						<div className="item4">
 							<BsCalendar />
 							<p>
 								{" "}
@@ -120,14 +120,14 @@ const CardProposta = ({ props }) => {
 						</div>
 					</label>
 					<label>
-						<div className="item">
+						<div className="item5">
 							<AiOutlineCalculator />
 							<p>Total {consumoTotal(props.cargas)}KWH</p>
 						</div>
 					</label>
 					{props.desconto && (
 						<label>
-							<div className="item">
+							<div className="item6">
 								<GiPriceTag />
 								<p>Desconto 5%</p>
 							</div>

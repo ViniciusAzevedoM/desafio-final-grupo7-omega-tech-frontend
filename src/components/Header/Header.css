@@ -14,8 +14,17 @@ header .header--logo img {
 
 header .header--itens {
 	display: flex;
-	align-items: center;
+	align-items:flex-end;
 }
+
+header .header--itens1 {
+	margin-right: 40px;
+}
+
+header .header--itens2 {
+	margin-right: 40px;
+}
+
 header .logout {
 	display: flex;
 	align-items: center;

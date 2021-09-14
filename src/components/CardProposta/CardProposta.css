@@ -3,7 +3,7 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	width: 340px;
+	width: 500px;
 	height: 450px;
 	/* margin: 0 50px; */
 	border: solid 1px #3485ff;
@@ -13,18 +13,89 @@
 }
 .card--proposta h2 {
 	color: #163862;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	font-size: 25px;
 }
 .card--proposta .info .item {
 	color: blue;
 	font-size: 25px;
-	margin: 40px 0;
+	/* margin: 40px 0; */
 	display: flex;
 	align-items: center;
 	justify-content: start;
 }
+
+.card--proposta .info .item2 {
+	color: blue;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.card--proposta .info .item3 {
+	color: blue;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.card--proposta .info .item4 {
+	color: blue;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.card--proposta .info .item5 {
+	color: blue;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.card--proposta .info .item6 {
+	color: blue;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
 .card--proposta .info .item p {
+	color: #163862;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+.card--proposta .info .item2 p {
+	color: #163862;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+.card--proposta .info .item3 p {
+	color: #163862;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+.card--proposta .info .item4 p {
+	color: #163862;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+.card--proposta .info .item5 p {
+	color: #163862;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+.card--proposta .info .item6 p {
 	color: #163862;
 	margin-left: 30px;
 	font-size: 30px;
@@ -32,7 +103,7 @@
 
 .card--proposta .btn {
 	border: none;
-	margin-top: 5%;
+	margin-top: 2%;
 	background: #3485ff;
 	color: #fff;
 	border-radius: 20px;

@@ -12,8 +12,8 @@ const Header = () => {
 				</a>
 			</div>
 			<div className="header--itens">
-				<a href="/">Minhas Propostas</a>
-				<a href="/create">Nova Proposta</a>
+				<a className="header--itens1" href="/">Minhas Propostas</a>
+				<a className="header--itens2" href="/create">Nova Proposta</a>
 
 				<a
 					href="/"
