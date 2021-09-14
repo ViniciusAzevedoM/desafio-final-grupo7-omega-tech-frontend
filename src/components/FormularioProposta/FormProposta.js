@@ -27,7 +27,7 @@ const FormProposta = () => {
 	const [dataFim, setDataFim] = useState(null);
 
 	useEffect(() => {
-		api.get("carga", { headers: { Authorization: `Bearer ${token}` } })
+		api.get("carga"/*, { headers: { Authorization: `Bearer ${token}` } }*/)
 			.then((response) => {
 				setCargas(response.data);
 			})
@@ -148,7 +148,7 @@ const FormProposta = () => {
 		// }
 	}
 
-	const cargasSelecionadas = cargas;
+	// const cargasSelecionadas = cargas;
 	// function selecionarCarga(id_public) {
 	// 	const carga = cargas.find((c) => {
 	// 		return c.id_public == id_public;
