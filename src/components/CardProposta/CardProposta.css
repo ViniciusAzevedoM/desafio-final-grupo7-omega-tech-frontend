@@ -22,7 +22,7 @@
 	/* margin: 40px 0; */
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 }
 
 .card--proposta .info .item2 {
@@ -30,7 +30,7 @@
 	font-size: 25px;
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 }
 
 .card--proposta .info .item3 {
@@ -38,7 +38,7 @@
 	font-size: 25px;
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 }
 
 .card--proposta .info .item4 {
@@ -46,7 +46,7 @@
 	font-size: 25px;
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 }
 
 .card--proposta .info .item5 {
@@ -54,7 +54,7 @@
 	font-size: 25px;
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 }
 
 .card--proposta .info .item6 {
@@ -62,7 +62,7 @@
 	font-size: 25px;
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 }
 
 .card--proposta .info .item p {
