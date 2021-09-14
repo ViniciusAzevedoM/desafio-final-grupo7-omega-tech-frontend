@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import { api } from "../../service/api";
 import Omega from "../../assets/logo.png";
 import { Link } from "react-router-dom";

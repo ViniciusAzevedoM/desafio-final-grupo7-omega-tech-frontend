@@ -21,7 +21,7 @@ const FormProposta = () => {
 	const history = useHistory();
 	const { token } = useContext(StoreContext);
 	const [cargas, setCargas] = useState([]);
-	const [valorTotal, setValorTotal] = useState(0);
+	// const [valorTotal, setValorTotal] = useState(0);
 	const [values, setValues] = useState(initialState);
 	const [dataInicio, setDataInicio] = useState(null);
 	const [dataFim, setDataFim] = useState(null);
@@ -90,7 +90,7 @@ const FormProposta = () => {
 		});
 	}
 
-	function valorProposta(cargas, values, dataInicio, dataFim) {}
+	// function valorProposta(cargas, values, dataInicio, dataFim) {}
 
 	function handleDataInicio(date) {
 		setDataInicio(date);
@@ -149,23 +149,23 @@ const FormProposta = () => {
 	}
 
 	const cargasSelecionadas = cargas;
-	function selecionarCarga(id_public) {
-		const carga = cargas.find((c) => {
-			return c.id_public == id_public;
-		});
+	// function selecionarCarga(id_public) {
+	// 	const carga = cargas.find((c) => {
+	// 		return c.id_public == id_public;
+	// 	});
 
-		const exist = cargasSelecionadas.find((c) => {
-			return c.id_public == id_public;
-		});
-		console.log(exist);
-		if (!exist) {
-			cargasSelecionadas.push(carga);
-		} else {
-			const index = cargasSelecionadas.findIndex(carga);
-			cargasSelecionadas.splice(index, 1);
-		}
-		// console.log(cargasSelecionadas);
-	}
+	// 	const exist = cargasSelecionadas.find((c) => {
+	// 		return c.id_public == id_public;
+	// 	});
+	// 	console.log(exist);
+	// 	if (!exist) {
+	// 		cargasSelecionadas.push(carga);
+	// 	} else {
+	// 		const index = cargasSelecionadas.findIndex(carga);
+	// 		cargasSelecionadas.splice(index, 1);
+	// 	}
+	// 	// console.log(cargasSelecionadas);
+	// }
 	const [cargasId, setCargasId] = useState([]);
 	function handleChange({ target }) {
 		if (target.checked) {
