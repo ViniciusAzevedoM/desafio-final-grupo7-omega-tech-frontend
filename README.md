@@ -53,7 +53,7 @@ $ npm run start build
 - [x] Tela de Login de usuário
 - [x] Tela de Cadastro de usuário
 - [x] Tela de criar propostas
-- [ ] Tela de contratar/listar propostas
+- [x] Tela de contratar/listar propostas
 
 🚧  🚀 Em construção...  🚧
 
