@@ -55,8 +55,6 @@ $ npm run start build
 - [x] Tela de criar propostas
 - [x] Tela de contratar/listar propostas
 
-🚧  🚀 Em construção...  🚧
-
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
